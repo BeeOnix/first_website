@@ -1,3 +1,8 @@
+h1 {
+  font-family: fantasy;
+  text-decoration: line-through;
+}
+
 body {
   font-family: helvetica, sans-serif;
   text-align: center;
@@ -8,6 +13,12 @@ body {
 }
 
 p {
-  color: #333;
+  color: #9876;
   font-size: 18px;
+}
+
+progress {
+  font-size: 45px;
+  text-decoration: inherit;
+  mix-blend-mode: color-dodge;
 }
